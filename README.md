@@ -4,3 +4,8 @@
 ![26036_color_palette](https://user-images.githubusercontent.com/21064622/128612609-345ca37c-6280-4b38-b8e9-64471728d3f6.jpg)
 # Public-Domain-Web-Design
 Simple Holy Grail Design
+
+
+Sources:  
+https://css-tricks.com/the-holy-grail-layout-with-css-grid/
+https://codepen.io/vmasto_1470672674/pen/YEVPdm
