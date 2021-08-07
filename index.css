@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+  all: unset;
+}
+
+
+/* Theming Support */
+:root {
+	--color-header: #ffcdd2;
+	--color-aside: #e1bee7;
+	--color-nav: #bbdefb;
+	--color-article: #dcedc8;
+	--color-footer: #ffecb3;
+}
+
+:root {
+	--color-header:  #145474;
+	--color-aside:   #f1f1f1;
+	--color-nav:     #4c80a5;
+	--color-nav:     #2b70a9;
+	--color-article: white;
+	--color-footer:  #145474;
+	
+	--font-color-header:  white;
+	--font-color-aside:   #e1bee7;
+	--font-color-nav:     #bbdefb;
+	--font-color-article: #dcedc8;
+	--font-color-footer:  #ffecb3;
+	
+	--font-text-border-color: #000000a8;
+	--font-text-shadow:       
+	1px  1px 1px var(--font-text-border-color),
+    1px -1px 1px var(--font-text-border-color),
+   -1px  1px 1px var(--font-text-border-color),
+   -1px -1px 1px var(--font-text-border-color);;
+	
+}
+
+
+
+main article details > p  {
+	color: black;
+	text-shadow: none;
+}
+
+
+
+
+body {
+  background: #e4e4e4;
+  padding: 5px;
+  height: 100vh;
+  margin: 0;
+  font: 500 100% system-ui, sans-serif;
+  text-transform: uppercase;
+}
+
+.page-wrap {
+  max-width: 900px;
+  margin: 0 auto;
+  background: white;
+  height: calc(100vh - 10px);
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.33);
+  display: grid;
+  grid-template-columns: minmax(10px, 1fr) minmax(10px, 3fr);
+  grid-template-rows: min-content min-content 1fr min-content;
+  gap: 1px;
+}
+.page-wrap > * {
+  padding: 1rem;
+  text-align: center;
+}
+@media (max-width: 600px) {
+  .page-wrap {
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+  }
+  .page-wrap > * {
+    grid-column: 1/-1 !important;
+    grid-row: auto !important;
+  }
+}
+
+
+.page-header {
+  grid-column: 1/-1;
+  background: var(--color-header);
+  color: var(--font-color-header);
+  text-shadow: var(--font-text-shadow);
+   text-stroke: 2px black; 
+}
+
+.page-sidebar {
+  grid-column: 1/2;
+  grid-row: 2/4;
+  background: var(--color-aside);
+  color: var(--font-color-aside);
+  text-shadow: var(--font-text-shadow);
+}
+
+.page-nav {
+  grid-column: 2/3;
+  background: var(--color-nav);
+  color: var(--font-color-nav);
+  text-shadow: var(--font-text-shadow);
+}
+
+.page-main {
+  grid-column: 2/3;
+  background: var(--color-article);
+  color: var(--font-color-article);
+  text-shadow: var(--font-text-shadow);
+}
+
+.page-footer {
+  grid-column: 1/-1;
+  background: var(--color-footer);
+  color: var(--font-color-footer);
+  text-shadow: var(--font-text-shadow);
+}
+
+/* DEBUG TEXT
+.page-header:after {
+	  content: "HEADER";
+	
+}
+
+.page-sidebar:after {
+	  content: "ASIDE";
+	
+}
+
+.page-nav:after {
+	  content: "NAV";
+	
+}
+
+.page-main:after {
+	  content: "ARTICLE";
+	
+}
+
+.page-footer:after {
+	  content: "FOOTER";
+	
+}
+*/
+
+details p {
+  text-transform: none;
+  text-align: left;
+}
