@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  all: unset;
+  all: unset; /* Seems to be conflicting with page-warp padding when scaling down on Chrome */
 }
 
 head, style {
