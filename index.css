@@ -1,16 +1,14 @@
 * {
   box-sizing: border-box;
-  all: unset; /* Seems to be conflicting with page-warp padding when scaling down on Chrome */
-}
-
-head, style {
-  display: none; /* Hide Ublock Origins Output On a Android Kiwi Browser*/
-}
-
-body {
-	all: initial;
 	
 }
+
+/* Remove default browser style for all elements */
+*:not(body, head, style, script) {
+  all: unset;
+  
+}
+
 
 /* Theming Support */
 :root {
