@@ -156,6 +156,11 @@ body {
 	  content: "FOOTER";
 	
 }
+
+.page-wrap > * {
+    border: solid 6px;
+}
+
 */
 
 details p {
