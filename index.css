@@ -87,7 +87,6 @@ body {
   background: var(--color-header);
   color: var(--font-color-header);
   text-shadow: var(--font-text-shadow);
-   text-stroke: 2px black; 
 }
 
 .page-sidebar {
