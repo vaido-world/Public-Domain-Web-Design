@@ -3,7 +3,7 @@
   all: unset;
 }
 
-head {
+head, style {
   all: initial;
 }
 
