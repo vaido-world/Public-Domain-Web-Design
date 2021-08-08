@@ -3,6 +3,10 @@
   all: unset;
 }
 
+header {
+  all: initial;
+}
+
 
 /* Theming Support */
 :root {
