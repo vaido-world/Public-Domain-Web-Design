@@ -9,6 +9,13 @@
   
 }
 
+p {
+	display: block;
+	font-size: small;
+	margin: 10px;
+	
+}
+
 
 /* Theming Support */
 :root {
