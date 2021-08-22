@@ -167,3 +167,9 @@ details p {
   text-transform: none;
   text-align: left;
 }
+
+/* Reference */
+/* https://www.google.com/search?q=web+design+2.0&sxsrf=ALeKk02oPeYttEmAD3EFEYwr1j6FrS5pWA:1629651393525&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjF_avDjMXyAhWP_aQKHUtmAHYQ_AUoAXoECAEQAw&biw=1920&bih=937#imgrc=SqTX3wv77RB6kM*/
+.page-nav {
+background: linear-gradient(180deg, rgba(27,57,73,1) 11%, rgba(30,79,101,1) 89%, rgba(33,67,83,1) 90%);
+}
