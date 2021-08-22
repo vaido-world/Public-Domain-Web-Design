@@ -2,7 +2,9 @@ TODO: Horizontal Navigation Bar for Navigation area
 https://www.w3schools.com/css/css_navbar_horizontal.asp
 
 TODO: Vertical Navigation Bar with buttons for Aside area
-
+* Information link
+* Download link
+* About link
 
 ![image](https://user-images.githubusercontent.com/21064622/128612620-f83517ba-bd8b-4295-a011-ca8af522a75a.png)
 
