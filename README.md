@@ -14,7 +14,7 @@ TODO: Vertical Navigation Bar with buttons for Aside area
 ![image](https://user-images.githubusercontent.com/21064622/128612620-f83517ba-bd8b-4295-a011-ca8af522a75a.png)
 
 
-## Linux | Firefox
+## GoboLinux | Firefox
 ![image](https://user-images.githubusercontent.com/21064622/130443824-5d27470b-59b5-4a0f-84d6-9a5b34be8161.png)
 
 
