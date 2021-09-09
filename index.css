@@ -8,6 +8,14 @@ a:hover {
 	
 }
 
+a:visited {
+    color: burlywood;
+}
+
+a:link {
+    color: aliceblue;
+}
+
 
 /* Remove default browser style for all elements */
 *:not(body, head, style, script) {
