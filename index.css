@@ -3,6 +3,12 @@
 	
 }
 
+a:hover {
+	background: #b9b9b9;
+	
+}
+
+
 /* Remove default browser style for all elements */
 *:not(body, head, style, script) {
   all: unset;
