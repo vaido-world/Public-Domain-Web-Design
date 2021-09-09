@@ -100,6 +100,9 @@ body {
   background: var(--color-header);
   color: var(--font-color-header);
   text-shadow: var(--font-text-shadow);
+	
+	display: flex;
+	justify-content: space-around;
 }
 
 .page-sidebar {
