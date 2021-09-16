@@ -84,6 +84,7 @@ body {
 
 aside {
 overflow: scroll;
+min-height: 80px;
 }
 
 .page-wrap {
